@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentError {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(125,125,125, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size:x-large;
+}
